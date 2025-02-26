@@ -14,9 +14,11 @@ void insert_element()
 {
     map<int, string> product;
     product[5] = "mobile";
-    product[13] = "headphone";
+    product[15] = "headphone";
     product[11] = "laptop";
-    product[17] = "mouse";
+    product[13] = "mouse";
+
+    product.insert(make_pair(1, "rahad"));
 
     print_element(product);
 }
